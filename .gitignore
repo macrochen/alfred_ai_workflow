@@ -1,0 +1,42 @@
+# macOS 系统文件
+.DS_Store
+
+# Alfred 工作流缓存
+*.alfredworkflow
+
+# Python 编译文件和虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+venv/
+env/
+ENV/
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+*.bak
+.idea/
+.vscode/
+
+# 日志和数据库文件
+*.log
+*.sqlite
+
+# 环境变量文件
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# 用户配置文件
+config.json
+settings.json
+
+# 压缩包
+*.zip
+*.tar
+*.gz
