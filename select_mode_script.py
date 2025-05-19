@@ -5,6 +5,7 @@ import json
 PROMPT_DEFINITIONS = [
     {"id": "explain", "title": "解释词义", "subtitle": "用大白话解释..."},
     {"id": "translate_en", "title": "翻译成英文", "subtitle": "将内容翻译成英文..."},
+    {"id": "translate_zh", "title": "翻译成中文", "subtitle": "将内容翻译成中文..."},
     {"id": "movie_summary", "title": "电影简介", "subtitle": "提供电影剧情简介..."},
     {"id": "custom_prompt", "title": "自定义提示", "subtitle": "直接发送您的输入..."}
 ]

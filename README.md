@@ -23,6 +23,22 @@
 3. 输入您的问题
 4. 查看 AI 回答
 
+## 打包工作流
+
+要打包成 Alfred 工作流文件(.alfredworkflow)，请执行以下步骤：
+
+1. 确保您有执行权限：
+```bash
+chmod +x package.sh
+```
+
+2. 运行打包脚本：
+```bash
+./package.sh
+```
+
+3. 脚本会自动生成 `.alfredworkflow` 文件，文件名为 `[工作流名称]_v[版本号].alfredworkflow`
+
 ## 配置
 
 在 Alfred 工作流设置中配置以下环境变量：

@@ -12,6 +12,7 @@ from pathlib import Path
 PROMPT_MODES = {
     "explain": "'{query_text}' 是什么意思？请用大白话给我解释一下。",
     "translate_en": "请将 '{query_text}' 翻译成英文。",
+    "translate_zh": "请将 '{query_text}' 翻译成中文。",
     "movie_summary": "请提供电影 '{query_text}' 的故事简介。",
     "custom_prompt": "{query_text}" # 用户输入的就是完整提示
 }
